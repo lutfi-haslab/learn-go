@@ -11,7 +11,7 @@
 |Data Types	| Description	| Examples|
 |-----------|---------------|-----------|
 |int	|Integer numbers.	|7123, 0, -5, 7023|
-|float	|Numbers with decimal points. 	|20.2, 500.123456, -34.23|
+|float32 / float 64	|Numbers with decimal points. 	|20.2, 500.123456, -34.23|
 |complex	|Complex numbers.	|2+4i, -9.5+18.3i|
 |string	|Sequence of characters.	|"Hello World!", "1 is less than 2"|
 |bool	|Either true or false.	| true, false|
@@ -46,3 +46,10 @@
 |< (less than)	|a < b	|returns true if a is less than b|
 |>= (greater than or equal to)	|a >= b	|returns true if a is either greater than or equal to c|
 |<= (less than or equal to)	|a <= b	|returns true is a is either less than or equal to b|
+
+## Logical Operators
+|Operator	|Description	|Example|
+|-----------|---------------|-------|
+|&& (Logical AND)	|exp1 && exp2	|returns true if both expressions exp1 and exp2 are true|
+| (Logical OR) |exp1 OR exp2	|returns true if any one of the expressions is true.|
+|! (Logical NOT)	|!exp	|returns true if exp is false and returns false if exp is true.|
